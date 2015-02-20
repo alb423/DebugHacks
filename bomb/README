@@ -1,0 +1,15 @@
+Game rule:
+You have to type in some code to defuse the bomb.
+There are 5 phases you need to defuse.
+The phase_0 is an example, the code is "help".
+And the remain phases are secret.
+Try to defuse them!!!!!
+
+Execution:
+$ qemu-arm -L /usr/arm-linux-gnueabihf bomb
+or you can type known code in a file as input
+$ qemu-arm -L /usr/arm-linux-gnueabihf bomb code.txt
+
+Useful tools:
+- arm-linux-gnueabihf-objdump
+- arm-none-eabi-gdb
